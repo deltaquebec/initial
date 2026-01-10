@@ -10,6 +10,10 @@ The **initial** package provides decorative initial functionality through a key-
 
 🔗 [Overleaf](https://www.overleaf.com/read/nqpfgddmjwdm#ffe750)
 
+Behind the scenes initial sketchwork:
+
+- **[bts-initial.pdf](bts/bts-initial.pdf)**: some handwork on initials and layouts
+
 ## Features
 
 - **scalable drop caps**: configurable line depth with automatic height calculation;
