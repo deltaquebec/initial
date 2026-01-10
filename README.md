@@ -3,7 +3,7 @@
 **Configurable drop capitals with presets, image initials, and shaped text flow**
 
 <p align="center"> 
-<img src="/bts/initial-anatomy.png" alt="Anatomy of initial capital and paragraph, with package options">
+<img src="/bts/anatomy.png" alt="Anatomy of initial capital and paragraph, with package options">
 </p>
 
 The **initial** package provides decorative initial functionality through a key-value interface, supporting text and image initials, named presets, ante text, post text styling, sloped parshapes, and baseline grid alignment. Built on standard packages, derived from the premier [lettrine package](https://ctan.org/pkg/lettrine?lang=en) and the [novel class](https://ctan.org/pkg/novel?lang=en).
