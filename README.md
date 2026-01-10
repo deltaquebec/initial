@@ -244,6 +244,18 @@ Contributions welcome:
 }
 ```
 
+## Acknowledgments
+
+This project draws conceptual inspiration from:
+
+- **Daniel Flipo**
+- **Robert Allgeyer**
+
+Special thanks to:
+- the LaTeX community for feedback and testing;
+- all contributors who have helped improve these packages.
+
+
 ## License
 
 **LaTeX Project Public License 1.3c**
