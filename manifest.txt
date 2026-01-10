@@ -1,0 +1,8 @@
+manifest.txt
+README.md
+.gitignore
+LICENSE
+docs/documentation-initial.pdf
+src/initial.sty
+bts/initial-anatomy.png
+bts/bts-initial.pdf
