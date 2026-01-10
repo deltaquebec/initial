@@ -1,11 +1,14 @@
 # Initial: Decorative Initial Capitals for LaTeX
 
+<p align="center"> 
+<img src="/bts/initial-anatomy.png" alt="Anatomy of initial capital and paragraph, with package options">
+</p>
+
 **Configurable drop capitals with presets, image initials, and shaped text flow**
 
 The **initial** package provides decorative initial functionality through a key-value interface, supporting text and image initials, named presets, ante text, sloped parshapes, and baseline grid alignment. Built on standard packages, derived from the premier [lettrine package](https://ctan.org/pkg/lettrine?lang=en) and the [novel class](https://ctan.org/pkg/novel?lang=en).
 
 🔗 [Overleaf](https://www.overleaf.com/read/nqpfgddmjwdm#ffe750)
-
 
 ## Features
 
@@ -101,16 +104,8 @@ Or place `initial.sty` in your project directory.
 | `afterindent` | length | 0pt | indent for after region |
 | `afterslope` | length | 0pt | slope for after region |
 
-### Spacing and grid
 
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| `textlines` | int | 0 | paragraph line count (for calculated spacing) |
-| `bclearance` | length | 0pt | bottom clearance after paragraph |
-| `tclearance` | length | 0pt | top clearance before paragraph |
-| `grid` | bool | false | round vertical space to baselineskip multiple |
-
-### Font styling
+### Typography
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
@@ -119,11 +114,6 @@ Or place `initial.sty` in your project directory.
 | `italic` | bool | false | italic shape |
 | `smallcaps` | bool | false | small caps |
 | `slanted` | bool | false | slanted shape |
-
-### Color and contour
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
 | `color` | color | — | initial color (empty = inherit) |
 | `contour` | bool | false | enable contour effect |
 | `contourcolor` | color | white | contour color |
@@ -137,15 +127,29 @@ Or place `initial.sty` in your project directory.
 | `ante*` | text | hanging ante, original size |
 | `post` | string | textsc | styling for run-in text (textsc; textbf; textit; texttt; textsl; none) |
 
-### Special options
+
+### Vertical clearance
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `tclearance` | length | 0pt | top clearance before paragraph |
+| `bclearance` | length | 0pt | bottom clearance after paragraph |
+| `textlines` | int | 0 | paragraph line count (for calculated spacing) |
+| `grid` | bool | false | round vertical space to baselineskip multiple |
+
+### Diacritics and accessibility
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `basecap` | bool | false | size to base cap height (diacritics overflow) |
+| `actualtext` | text | — | accessibility text for image initials |
+
+### Presets and debugging
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
 | `preset` | name/int | — | named preset or legacy 1–6 |
 | `box` | bool | false | show debug frame around initial |
-| `basecap` | bool | false | size to base cap height (diacritics overflow) |
-| `actualtext` | text | — | accessibility text for image initials |
-
 
 ## Numeric presets
 
