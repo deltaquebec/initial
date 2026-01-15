@@ -260,6 +260,7 @@ This project draws conceptual inspiration from:
 - **Robert Allgeyer**
 
 Special thanks to:
+- Ulrike Fischer
 - the LaTeX community for feedback and testing;
 - all contributors who have helped improve these packages.
 
@@ -280,6 +281,6 @@ This work may be distributed and/or modified under the conditions of the LaTeX P
 
 ---
 
-**Version**: 1.2.0  
+**Version**: 1.3.1  
 **Last updated**: January 2025  
 **Status**: Active development
